@@ -2,7 +2,7 @@ import { UilTimes, UilSpinnerAlt } from '@iconscout/react-unicons';
 import swr from '../../lib/swr.jsx';
 
 export default function Main()  {
-    const { data: _projects } = swr('https://swothh.github.io/projects/list.json', 600000);
+    const { data: _projects } = swr('https://nils-afk.github.io/projects/list.json', 600000);
     const projects = _projects ? _projects : null;
 
     return (
