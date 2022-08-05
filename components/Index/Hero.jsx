@@ -5,7 +5,7 @@ import Tippy from '@tippyjs/react';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
-    const { data: _projects } = swr('https://swothh.github.io/projects/list.json', 600000);
+    const { data: _projects } = swr('https://nils-afk.github.io/projects/list.json', 600000);
     let projects = _projects ? _projects : null;
 
     const [ isSelected, setIsSelected ] = useState(false);
