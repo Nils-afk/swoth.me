@@ -37,7 +37,7 @@ export default function Activities() {
                     <div className="animate-pulse h-5 w-40 md:w-80 rounded-lg bg-white/10" />
                 </div>
                 {profile && <div className="z-1 absolute inset-0">
-                    <iframe src="https://linkcord.js.org/api/v3/widget/451444721089380373?type=spotify_large&lang=en&theme=dark&align=left&background=080808" className="w-full" height="140" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+                    <iframe src="https://linkcord.js.org/api/v3/widget/776757761701838858?type=spotify_large&lang=en&theme=dark&align=left&background=080808" className="w-full" height="140" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
                 </div>}
             </div>
         </div>
