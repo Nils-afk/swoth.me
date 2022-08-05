@@ -6,7 +6,7 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>Contact | Swôth</title>
+                <title>Contact | Nils</title>
             </Head>
             <div className="w-full my-5">
                 <Hero />
