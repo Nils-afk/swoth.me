@@ -27,15 +27,15 @@ export default function Header() {
             <div className={"pb-10 w-full flex items-center justify-between"}>
                 <div className="flex items-center space-x-2">
                     <Link href="/">
-                        <a className="pr-1 text-white font-bold text-4xl">Swôth</a>
+                        <a className="pr-1 text-white font-bold text-4xl">Nils</a>
                     </Link>
                     <a target="_blank" href="https://serity.me/discord" className="flex items-center justify-center cursor-pointer social w-10 h-10 rounded-lg">
                         <i className="fab fa-discord" />
                     </a>
-                    <a target="_blank" href="https://twitter.com/swoth_" className="flex items-center justify-center cursor-pointer social w-10 h-10 rounded-lg">
+                    <a target="_blank" href="https://twitter.com/GamerArmyL" className="flex items-center justify-center cursor-pointer social w-10 h-10 rounded-lg">
                         <i className="fab fa-twitter" />
                     </a>
-                    <a target="_blank" href="https://github.com/swothh" className="flex items-center justify-center cursor-pointer social w-10 h-10 rounded-lg">
+                    <a target="_blank" href="https://github.com/nils-afk" className="flex items-center justify-center cursor-pointer social w-10 h-10 rounded-lg">
                         <i className="fab fa-github" />
                     </a>
                 </div>
