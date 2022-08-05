@@ -34,7 +34,7 @@ export default function Footer() {
             <h1 className="mb-2 sm:mb-0 select-none text-normal text-white font-light text-center">Developed with <Tippy content="Love"><i style={{ color: colors[index] }} onClick={handleClick} className="cursor-pointer fas fa-heart mx-0.5" /></Tippy> by Nils and Swôth</h1>
             <div className="relative flex justify-end w-full sm:w-1/2">
                 <div className="mr-24 sm:mr-0 w-24 h-24 rounded-lg shadow-xl shadow-red-800/20 bg-gradient-to-bl from-rose-600 to-red-800" />
-                <h1 className="select-none heading-text absolute bottom-5 right-28 sm:right-5 text-3xl text-white font-bold text-center">&copy; {new Date().getFullYear()}, Swôth</h1>
+                <h1 className="select-none heading-text absolute bottom-5 right-28 sm:right-5 text-3xl text-white font-bold text-center">&copy; {new Date().getFullYear()}, Nils</h1>
             </div>
         </div>
     );
