@@ -4,20 +4,20 @@ export default function Main()  {
     const contacts = [
         {
             icon: <i className="fab text-3xl fa-twitter" />,
-            title: '@swoth_',
-            href: 'https://twitter.com/swoth_',
+            title: '@GamerArmyL',
+            href: 'https://twitter.com/GamerArmyL',
             desc: 'Twitter'
         },
         {
             icon: <i className="fas text-3xl fa-at" />,
-            title: 'me@swoth.xyz',
-            href: 'mailto:me@swoth.xyz',
+            title: 'me@nilsfuchs.ml',
+            href: 'mailto:me@nils-fuchs.ml',
             desc: 'E-Mail'
         },
         {
             icon: <i className="fab text-3xl fa-discord" />,
-            title: 'Swôth#9990',
-            href: 'https://discord.com/users/451444721089380373',
+            title: '𝙉𝙞𝙡𝙨#0001',
+            href: 'https://discord.com/users/776757761701838858',
             desc: 'Discord'
         }
     ];
