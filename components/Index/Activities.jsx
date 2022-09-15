@@ -1,9 +1,16 @@
 import swr from '../../lib/swr.jsx';
 import Tippy from '@tippyjs/react';
+import { useState } from 'react';
 
 export default function Activities() {
     const { data: _profile } = swr('/api/util/me');
     const profile = _profile || null;
+    const [ type, setType ] = useState('spotify_large');
+    
+    const toggle = e => {
+        e.preventDefault();
+        setType(type === 'vsc' ? 'spotify_large' : 'vsc');
+    };
     
     return (
         <div className="pt-5 pb-10 md:grid grid-cols-3 gap-x-6">
@@ -36,8 +43,8 @@ export default function Activities() {
                     <div className="animate-pulse h-6 w-6 rounded-lg bg-white/10" />
                     <div className="animate-pulse h-5 w-40 md:w-80 rounded-lg bg-white/10" />
                 </div>
-                {profile && <div className="z-1 absolute inset-0">
-                    <iframe src="https://linkcord.js.org/api/v3/widget/776757761701838858?type=spotify_large&lang=en&theme=dark&align=left&background=080808" className="w-full" height="140" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+                {profile && <div onClick={toggle} className="z-1 absolute inset-0">
+                    <iframe src={"https://linkcord.js.org/api/v3/widget/776757761701838858?type=" + type + "&lang=en&theme=dark&align=left&background=080808"} className="w-full" height="140" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
                 </div>}
             </div>
         </div>
