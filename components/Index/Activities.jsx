@@ -38,12 +38,12 @@ export default function Activities() {
                     <h1 className="text-center leading-none font-semibold text-xl md:text-lg lg:text-xl text-zinc-300">#{profile.discriminator}</h1>
                 </div>}
             </div>
-            <div className="mt-5 md:mt-0 rounded-lg overflow-hidden col-span-2 w-full h-[140px] sm:gap-x-6 py-5 relative">
+            <div onClick={toggle} className="mt-5 md:mt-0 rounded-lg overflow-hidden col-span-2 w-full h-[140px] sm:gap-x-6 py-5 relative">
                 <div className="space-x-3 absolute inset-0 bg-[#080808] rounded-lg flex items-center justify-center">
                     <div className="animate-pulse h-6 w-6 rounded-lg bg-white/10" />
                     <div className="animate-pulse h-5 w-40 md:w-80 rounded-lg bg-white/10" />
                 </div>
-                {profile && <div onClick={toggle} className="z-1 absolute inset-0">
+                {profile && <div className="z-1 absolute inset-0">
                     <iframe src={"https://linkcord.js.org/api/v3/widget/776757761701838858?type=" + type + "&lang=en&theme=dark&align=left&background=080808"} className="w-full" height="140" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
                 </div>}
             </div>
