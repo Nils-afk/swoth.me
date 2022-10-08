@@ -47,7 +47,7 @@ export default function Activities() {
                     Change
                 </a>}
                 {profile && <div className="z-1 absolute inset-0">
-                    <iframe src={"https://api.lanyard.rest/v1/users/776757761701838858?type=" + type + "&lang=en&theme=dark&align=left&background=080808"} className="w-full" height="140" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+                    <iframe src={"https://api.lanyard.rest/v1/users/776757761701838858?" />
                 </div>}
             </div>
         </div>
